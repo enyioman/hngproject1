@@ -1,0 +1,65 @@
+    @font-face {
+        font-family: Calibre-Regular;
+        src: url(fonts/Calibre-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Calibre-Medium;
+        src: url(fonts/Calibre-Medium.ttf);
+    }
+
+    @font-face {
+        font-family: Calibre-Bold;
+        src: url(fonts/Calibre-Bold.ttf);
+    }
+
+    body {
+        background: url("https://res.cloudinary.com/dwkzixuca/image/upload/v1523981965/letscode3.jpg");
+        background-size: cover;  
+    }
+
+    .div2 {
+    max-width: 1920px;
+    max-height: 2000px;        
+    /* border: 1px solid white; */
+    /* background-image: url("img/letscode2.jpg"); */
+    
+    background-size: initial;    
+    box-sizing: border-box;
+}
+
+.text-reg {
+    color: rgb(255, 255, 255);
+
+    line-height: 36px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: Calibre-Regular;
+}
+
+.text-med-top {
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    text-align: left;
+    padding-top: 400px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: Calibre-Medium;
+}
+
+.text-med-bottom {
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-family: Calibre-Medium;
+}
+
+
+.timer {
+    font-size: 50px;
+}
